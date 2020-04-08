@@ -6,7 +6,7 @@
         android:height="100dp"
         android:width="100dp"
         android:gravity="center"        
-		android:drawable="@drawable/ic_icon_splash" 
+		android:drawable="@drawable/ic_applogo_splash" 
      />
 	<item android:height="175dp"
 		android:width="175dp"
