@@ -61,6 +61,18 @@ public class Splash {
         ((Animatable) splash).start();
       }
 
+       if(splash instanceof LayerDrawable){
+        LayerDrawable layeredSplash = (LayerDrawable) splash;
+
+        for(int i = 0; i < layeredSplash.getNumberOfLayers(); i++){
+          Drawable layerDrawable = layeredSplash.getDrawable(i);
+
+          if(layerDrawable instanceof  Animatable) {
+            ((Animatable) layerDrawable).start();
+          }
+        }
+      }
+
       splashImage = new ImageView(c);
 
       splashImage.setFitsSystemWindows(true);
