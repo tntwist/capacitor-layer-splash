@@ -1,8 +1,17 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "capacitor-layer-splash",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www",
-  "cordova": {}
+    "appId": "io.ionic.starter",
+    "appName": "capacitor-layer-splash",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "www",
+    "cordova": {},
+    "plugins": {
+        "SplashScreen": {
+            "launchShowDuration": 3000,
+            "launchAutoHide": true,
+            "showSpinner": false,
+            "spinnerColor": "#2698f3",
+            "androidSplashResourceName": "splash_full"
+        }
+    }
 }
