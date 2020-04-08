@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-layer-splash",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
